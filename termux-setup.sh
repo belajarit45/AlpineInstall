@@ -10,4 +10,5 @@ git clone "${REPO_URL}"
 cd AlpineInstall
 git checkout "${BRANCH}"
 
+chmod +x install.sh
 ./install.sh
