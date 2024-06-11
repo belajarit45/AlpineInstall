@@ -3,7 +3,7 @@
 export REPO_URL=https://github.com/belajarit45/AlpineInstall.git
 export BRANCH=main
 
-pkg update -y
+pkg update -y -q
 pkg install -y git
 
 git clone "${REPO_URL}"
