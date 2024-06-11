@@ -7,7 +7,7 @@ pkg update -y -q
 pkg install -y git
 
 git clone "${REPO_URL}"
-cd AlpineInstall
+cd docker-qemu-arm
 git checkout "${BRANCH}"
 
 chmod +x install.sh
