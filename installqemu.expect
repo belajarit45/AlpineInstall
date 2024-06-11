@@ -254,20 +254,3 @@ send "docker run -d -e EARNAPP_UUID='sdk-android-e5d12f47058c4d35bbcc440cfd922db
 
 expect "#"
 send "cd\r"
-
-expect "#"
-send "cd\r"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
