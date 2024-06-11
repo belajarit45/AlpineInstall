@@ -196,3 +196,78 @@ expect ":~#"
 
 # back on console
 expect "$"
+
+
+# add docker push
+expect "#"
+send "apk add docker-compose\r"
+
+
+# make acount
+# acount1
+expect "#"
+send "mkdir akun1 && cd akun1\r"
+
+expect "#"
+send "docker run -d -e EARNAPP_UUID='sdk-android-f52bdd003e414ef6a191915dde21921c'  --name earnapp fazalfarhan01/earnapp:lite\r"
+
+expect "#"
+send "cd\r"
+
+# acount2
+expect "#"
+send "mkdir akun2 && cd akun2\r"
+
+expect "#"
+send "docker run -d -e EARNAPP_UUID='sdk-android-5d9704adaed349bfa4ab398816655619'  --name earnapp fazalfarhan01/earnapp:lite\r"
+
+expect "#"
+send "cd\r"
+
+# acount3
+expect "#"
+send "mkdir akun3 && cd akun3\r"
+
+expect "#"
+send "docker run -d -e EARNAPP_UUID='sdk-android-d8cfa1f5bb0144b28bebf06bdf1aacdc'  --name earnapp fazalfarhan01/earnapp:lite\r"
+
+expect "#"
+send "cd\r"
+
+# acount4
+expect "#"
+send "mkdir akun4 && cd akun4\r"
+
+expect "#"
+send "docker run -d -e EARNAPP_UUID='sdk-android-22d2f230eb10439e8c7b8862dca35c90'  --name earnapp fazalfarhan01/earnapp:lite\r"
+
+expect "#"
+send "cd\r"
+
+# acount5
+expect "#"
+send "mkdir akun5 && cd akun5\r"
+
+expect "#"
+send "docker run -d -e EARNAPP_UUID='sdk-android-e5d12f47058c4d35bbcc440cfd922dbd'  --name earnapp fazalfarhan01/earnapp:lite
+\r"
+
+expect "#"
+send "cd\r"
+
+expect "#"
+send "cd\r"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
