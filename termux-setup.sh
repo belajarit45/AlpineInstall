@@ -4,6 +4,8 @@ export REPO_URL=https://github.com/belajarit45/AlpineInstall.git
 export BRANCH=main
 
 pkg install -y expect
+expect -f autoupdate.expect
+
 pkg update -y
 pkg install -y git
 
