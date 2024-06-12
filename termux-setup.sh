@@ -3,8 +3,8 @@
 export REPO_URL=https://github.com/belajarit45/AlpineInstall.git
 export BRANCH=main
 
-pkg update -y -q
-pkg install -y git
+pkg install -y git expect
+pkg update -y
 
 git clone "${REPO_URL}"
 cd docker-qemu-arm
