@@ -6,16 +6,16 @@
 set timeout -1
 
 expect "\[default=N\]"
-send "\r"
+send "no\r"
 
 expect "\[default=N\]"
-send "\r"
+send "no\r"
 
 expect "\[default=N\]"
-send "\r"
+send "no\r"
 
 expect "\[default=N\]"
-send "\r"
+send "no\r"
 
 expect "\[default=N\]"
-send "\r"
+send "no\r"
